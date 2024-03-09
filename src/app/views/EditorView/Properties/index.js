@@ -6,9 +6,6 @@ const Properties = () => {
       <div className="text-2xl mb-4">Properties</div>
       <div className="space-y-4">
         <PropertyItem />
-        <PropertyItem />
-        <PropertyItem />
-        <PropertyItem />
       </div>
     </div>
   );
