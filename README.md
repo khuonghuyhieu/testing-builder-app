@@ -36,8 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 - Note when test:
-
-* If you click into the item in Editor then double click
+  When you switch back and forth between items in the iframe to rename, remember to delete all content in the input.
 
 - This is a result
   ![alt text](image.png)
