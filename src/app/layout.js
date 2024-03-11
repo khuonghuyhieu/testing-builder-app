@@ -1,7 +1,7 @@
 import { Patrick_Hand as PatrickHand } from "next/font/google";
 
 import "./globals.css";
-import { cn } from "./utils";
+import { cn } from "../utils";
 
 const patrickHand = PatrickHand({
   subsets: ["latin"],

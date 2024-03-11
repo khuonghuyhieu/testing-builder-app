@@ -3,8 +3,8 @@
 import { produce } from "immer";
 import { v4 as uuid } from "uuid";
 
-import { IMPLEMENT_COMPONENTS_CONFIG } from "@/app/constants";
-import { addToVDom } from "@/app/utils";
+import { IMPLEMENT_COMPONENTS_CONFIG } from "@/constants";
+import { addToVDom } from "@/utils";
 
 const FrameEditor = ({ html, dom, setDom, frameRef }) => {
   const handleCreateImplement = (implement) => {

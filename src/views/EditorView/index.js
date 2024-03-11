@@ -5,7 +5,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import CoreImplement from "./CoreImplement";
 import FrameEditor from "./FrameEditor";
 import Properties from "./Properties";
-import { convertToHTML, setActiveElements } from "@/app/utils";
+import { convertToHTML, setActiveElements } from "@/utils";
 
 const EditorView = () => {
   const frameRef = useRef();
@@ -43,6 +43,10 @@ const EditorView = () => {
   useEffect(() => {
     setHtml("<html>" + convertToHTML(dom) + "</html>");
   }, [dom]);
+
+  useEffect(() => {
+    localStorage.setItem("html", html);
+  }, [html]);
 
   return (
     <section className="flex-grow grid grid-cols-12 h-screen">

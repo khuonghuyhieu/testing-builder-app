@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { produce } from "immer";
 
 import PropertyItem from "../components/Properties";
-import { findDomElement, modifyDom } from "@/app/utils";
+import { findDomElement, modifyDom } from "@/utils";
 
 const Properties = ({ dom, setDom, activeId }) => {
   const findActive = useMemo(() => {

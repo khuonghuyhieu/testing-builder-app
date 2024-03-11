@@ -1,8 +1,8 @@
 "user client";
 
-import { IMPLEMENT_COMPONENTS_CONFIG } from "@/app/constants";
+import { IMPLEMENT_COMPONENTS_CONFIG } from "@/constants";
 import ImplementItem from "../components/ImplementItem";
-import { addToVDom, handleCreateImplement } from "@/app/utils";
+import { addToVDom, handleCreateImplement } from "@/utils";
 
 const CoreImplement = () => {
   return (
