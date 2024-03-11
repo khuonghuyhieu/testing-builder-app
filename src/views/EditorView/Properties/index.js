@@ -28,7 +28,7 @@ const Properties = ({ dom, setDom, activeId }) => {
   };
 
   return (
-    <div className="col-span-2 p-4">
+    <div className="col-span-2 p-4 bg-black">
       <div className="text-2xl mb-4">Properties</div>
       <div className="space-y-4">
         <PropertyItem label="Content" onChange={handleChangeValueElement} />

@@ -2,8 +2,13 @@
 
 import { MdDraw } from "react-icons/md";
 import { Button } from "../ui";
+import { useRouter } from "next/navigation";
 
 const Header = () => {
+  const handleClick = () => {
+    window.open("/consumer", "_blank");
+  };
+
   return (
     <div
       style={{ height: 80 }}
@@ -13,7 +18,7 @@ const Header = () => {
         <MdDraw className="mr-3" />
         App Builder
       </div>
-      <Button>Preview</Button>
+      <Button onClick={handleClick}>Preview</Button>
     </div>
   );
 };

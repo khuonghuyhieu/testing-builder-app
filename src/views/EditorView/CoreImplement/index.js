@@ -6,7 +6,7 @@ import { addToVDom, handleCreateImplement } from "@/utils";
 
 const CoreImplement = () => {
   return (
-    <div className="col-span-2 p-4">
+    <div className="col-span-2 p-4 bg-black">
       <div className="text-2xl">Core Implement</div>
       <div className="grid md:grid-cols-2 gap-3 mt-2 grid-cols-1">
         {IMPLEMENT_COMPONENTS_CONFIG.map((implement) => (
